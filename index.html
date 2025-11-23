@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/rojo.png">
+    <title>Mi blog</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bienvenidos a mi blog</h1>
+        <nav>
+            <a href="#Inicio">Inicio</a>
+            <a href="#sobre-mi">Acerca de</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main id="Inicio">
+        <section>
+            <h2>Mi nombre es Maleny Dominguez Sarmiento</h2>
+            <p>Soy la <em>alumna</em> más linda de <strong>Dev.f</strong> 💖</p>
+
+            
+            <div class="imagen-contenedor">
+                <img src="./assets/male.png" 
+                     alt="Fotografía de la alumna Maleny Dominguez Sarmiento">
+            </div>
+        </section>
+    </main>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+
+        <p>
+            Soy una persona curiosa, con muchas ganas de aprender y explorar nuevas ideas. 
+            Actualmente estudio Ingeniería en Tecnologías de la Información y Comunicación. 
+            Soy entusiasta, amable y aunque a veces un poco reservada, siempre busco mejorar, 
+            aprender y aportar de manera creativa y responsable.
+        </p>
+
+        <h3>Mis pasatiempos</h3>
+        <ul>
+            <li>Ver k-dramas</li>
+            <li>Realizar sudokus</li>
+            <li>Armar rompecabezas</li>
+            <li>Jugar videojuegos:
+                <ul>
+                    <li>Los Sims</li>
+                    <li>Call of Duty</li>
+                    <li>Minecraft</li>
+                </ul>
+            </li>
+            <li>Bailar</li>
+        </ul>
+
+        <h3>Mis redes sociales</h3>
+        <ol>
+            <li>
+                GitHub: 
+                <a href="https://github.com/malenydominguez99-cmd" target="_blank">
+                    Maleny Dominguez 👩‍💻
+                </a>
+            </li>
+
+            <li>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/maleny-dominguez/" target="_blank">
+                    Maleny Dominguez Sarmiento 💼
+                </a>
+            </li>
+        </ol>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>🐙2025 Mi blog. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
